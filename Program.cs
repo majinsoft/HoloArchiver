@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Linq;
 
 namespace HoloArchiver
 {
@@ -11,7 +10,7 @@ namespace HoloArchiver
             Console.WriteLine("HoloArchiver v1.0");
             if (args.Length != 1)
             {
-                Console.WriteLine("usage: h3d.exe file.h3d");
+                Console.WriteLine("usage: HoloArchiver.exe file.h3d");
                 Console.ReadLine();
                 return;
             }
